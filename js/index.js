@@ -5,11 +5,16 @@ document.addEventListener("DOMContentloaded", () => {
 const monsterCollection = document.querySelector('#monster-container')
 const addMonsterForm = document.querySelector('.add-monster-form')
 
+//page navigation
 monsterCollection.addEventListener('click', (e) => {
     if (e.target.matches('button.forward')) {
-        
+
+    } else if (e.target.matches('button.back')) {
+
     }
+
 })
+
 
 
 
